@@ -12,6 +12,10 @@ namespace daycare22.Models
         public string BirthDate { get; }
         public Address Address { get; set; }
 
+        public string Image { get; }
+        public string PhoneNumber { get; }
+
+
 
 
 

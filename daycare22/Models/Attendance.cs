@@ -7,5 +7,8 @@ namespace daycare22.Models
 {
     public class Attendance
     {
+        public int DayAttendance { get; set; }
+
+        public int HoursAttendance { get; set; }
     }
 }

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace daycare22.Models
 {
-    interface IIndant
+    interface IInfant
     {
     }
 }

@@ -7,5 +7,14 @@ namespace daycare22.Models
 {
     public class Teacher
     {
+
+        public int Id { get; set; }
+        public string TeacherName { get; }
+        public string BirthDate { get; }
+
+        public string PhoneNumber { get; }
+        public Address Address { get; set; }
+
+        public string EmailAddress { get; }
     }
 }
