@@ -16,5 +16,18 @@ namespace daycare22.Models
         public Address Address { get; set; }
 
         public string EmailAddress { get; }
+
+        public Manager(int id, string name, string birthDate, Address address, string emailAddress, string phoneNumber)
+        {
+            Id = id;
+            ManagerName = name;
+            BirthDate = birthDate;
+            Address = address;
+            PhoneNumber = phoneNumber;
+            EmailAddress = emailAddress;
+        }
+
+
+
     }
 }

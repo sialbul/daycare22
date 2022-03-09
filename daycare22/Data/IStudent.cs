@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace daycare22.Models
+namespace daycare22.Data
 {
-    interface ISchoolAge
+    public class IStudent
     {
     }
 }
