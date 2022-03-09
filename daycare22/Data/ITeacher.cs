@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace daycare22.Data
 {
- interface ITeacher
+         interface ITeacher
     {
 
         public List<Teacher> List();

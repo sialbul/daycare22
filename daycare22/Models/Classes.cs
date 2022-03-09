@@ -7,5 +7,8 @@ namespace daycare22.Models
 {
     public class Classes
     {
+
+        public int Id { get; set; }
+        public string ClassName { get; }
     }
 }
